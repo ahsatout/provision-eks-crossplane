@@ -73,9 +73,9 @@ kubectl apply -f 5-storageclass
 
 ## Deploy Cluster Autoscaler
 
-Cluster Autoscaler Deployment: Runs the autoscaler logic within the cluster.
-IAM Role: Provides necessary permissions for the autoscaler to interact with AWS.
-Service Account: Links the Kubernetes deployment with the IAM role (using IRSA).
+- Cluster Autoscaler Deployment: Runs the autoscaler logic within the cluster.
+- IAM Role: Provides necessary permissions for the autoscaler to interact with AWS.
+- Service Account: Links the Kubernetes deployment with the IAM role (using IRSA).
 
 ```bash
 helm repo add autoscaler https://kubernetes.github.io/autoscaler
